@@ -1,0 +1,166 @@
+body {
+  margin: 50px;
+}
+
+.card-small {
+  border: 2px #f9045a solid;
+  border-radius: 40px 10px;
+  margin-bottom: -50px;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+div .card-small .fa-sun {
+  font-size: 80px;
+}
+
+.header {
+  font-size: 20px;
+  color: #f9045a;
+  position: relative;
+  left: 60px;
+  font-weight: 300;
+}
+
+.units {
+  position: relative;
+  left: 135px;
+  top: -25px;
+  font-size: 20px;
+  color: #f9045a;
+}
+#card-main {
+  font-size: 85px;
+  padding: 0;
+  margin: -15px;
+  position: relative;
+  left: 15px;
+  color: #f9045a;
+}
+
+.temp {
+  font-size: 35px;
+  position: relative;
+  left: 34px;
+  top: -10px;
+  font-weight: 100;
+  color: #f9045a;
+}
+
+#description {
+  color: #f9045a;
+  font-size: 35px;
+  text-align: center;
+  font-weight: 100;
+}
+
+i {
+  color: orange;
+  font-size: 100px;
+  text-align: center;
+}
+
+form {
+  position: relative;
+  right: -330px;
+  top: -150px;
+  margin-bottom: -80px;
+}
+
+button {
+  position: relative;
+  right: -570px;
+  top: -97px;
+  margin-bottom: -70px;
+  border-radius: 4px;
+  font-size: 13px;
+  background-color: #f9045a;
+  color: white;
+  font-weight: bold;
+}
+
+h2 {
+  position: relative;
+  color: #f9045a;
+  border-radius: 5px;
+  padding: 10px;
+  top: -240px;
+  right: -330px;
+  font-weight: 300;
+  font-size: 29px;
+  margin: -13px;
+}
+
+#current-city {
+  color: orange;
+  font-weight: 200;
+}
+
+input {
+  font-size: 15px;
+}
+ul {
+  position: relative;
+  line-height: 25px;
+  right: -310px;
+  top: -200px;
+  list-style-type: none;
+  color: #f9045a;
+  font-weight: 400;
+  margin: 0;
+  line-height: 25px;
+}
+.vr {
+  width: 3px;
+  background-color: #f9045a;
+  position: absolute;
+  top: 150px;
+  bottom: 0;
+  left: 345px;
+  height: 100px;
+}
+
+hr {
+  border-color: #f9045a;
+  margin: 0;
+}
+
+.fa-cloud-sun-rain {
+  font-size: 50px;
+}
+
+.fa-cloud-rain {
+  font-size: 50px;
+}
+
+.fa-sun {
+  font-size: 50px;
+}
+
+.days {
+  font-size: 20px;
+  color: #ff4271;
+  text-align: center;
+}
+.card-text {
+  font-weight: 200;
+  color: #f9045a;
+  text-align: center;
+  font-size: 16px;
+}
+
+footer p {
+  font-size: 27px;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+  background: linear-gradient(white, #f9045a);
+  margin: 0;
+  padding: 5px;
+}
+
+.preview {
+  text-align: center;
+
+  margin-bottom: 10px;
+}

@@ -1,12 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <script src="script.js"></script>
-  </body>
+<html>
+
+<head>
+  <title>Parcel Sandbox</title>
+  <meta charset="UTF-8" />
+  <link href="src/styles.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+  <script src="https://kit.fontawesome.com/43a8d3892b.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="card" style="width: 50rem;">
+      <div class="card-body">
+
+
+        <div class="card-small" style="width: 15rem;">
+          <div class="card-body">
+            <h1 id="card-main">80°</h1>
+            <span class="units">F | <a href="#">C</a></span>
+            <h3 id="description">sunny</h3>
+            <p class="card-text">
+              <i class="fas fa-sun"></i>
+          </div>
+          </p>
+        </div>
+        <div></div>
+
+        <div class="vr"></div>
+
+
+
+        <h2 id="current-city">
+          Chicago | <h2 id="todays-date"> Saturday 8/15 <br />
+            12:55pm
+          </h2>
+
+
+          <ul>
+            <li>
+              humidity: <span id="humidity">51</span>%
+            </li>
+            <li>
+              precipitation: 25%
+            </li>
+            <li>
+              wind speed:<span id="wind">12</span> mph
+            </li>
+          </ul>
+
+          <form class="location-search" id="search-bar">
+            <input class="search-bar" id="search-location" placeholder="enter city here" />
+            <input class="search-button" type="submit" value="search" />
+
+          </form>
+
+
+          <button id="current">Current</button>
+
+
+          <hr /> <br />
+
+
+          <div class="row preview">
+            <div class="col">
+              <div class="card-body">
+                <i class="fas fa-cloud-sun-rain"></i>
+                <h6 class="days">Sunday</h6>
+                <p class="card-text">85˚F / 79˚F</p>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card-body">
+                <i class="fas fa-cloud-rain"></i>
+                <h6 class="days">Monday</h6>
+                <p class="card-text">78˚F / 70°F</p>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card-body">
+                <i class="fas fa-sun"></i>
+                <h6 class="days">Tuesday</h6>
+                <p class="card-text">90˚F / 85°F</p>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card-body">
+                <i class="fas fa-sun"></i>
+                <h6 class="days"> Wednesday</h6>
+                <p class="card-text">93˚F / 87°F</p>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card-body">
+                <i class="fas fa-cloud-sun-rain"></i>
+                <h6 class="days">Thursday</h6>
+                <p class="card-text">88˚F / 82°F</p>
+              </div>
+            </div>
+          </div>
+
+
+          <footer>
+            <p> 5 Day Forcast </p>
+          </footer>
+          <script src="src/index.js"></script>
+</body>
+</div>
+
 </html>
