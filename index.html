@@ -4,7 +4,7 @@
 <head>
   <title>Parcel Sandbox</title>
   <meta charset="UTF-8" />
-<link rel="stylesheet" href="styles.css" />
+  <link href="styles.css" />
 
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
@@ -34,3 +34,88 @@
         <div></div>
 
         <div class="vr"></div>
+
+
+
+        <h2 id="current-city">
+          Chicago | <h2 id="todays-date"> Saturday 8/15 <br />
+            12:55pm
+          </h2>
+
+
+          <ul>
+            <li>
+              humidity: <span id="humidity">51</span>%
+            </li>
+            <li>
+              precipitation: 25%
+            </li>
+            <li>
+              wind speed:<span id="wind">12</span> mph
+            </li>
+          </ul>
+
+          <form class="location-search" id="search-bar">
+            <input class="search-bar" id="search-location" placeholder="enter city here" />
+            <input class="search-button" type="submit" value="search" />
+
+          </form>
+
+
+          <button id="current">Current</button>
+
+
+          <hr /> <br />
+
+
+          <div class="row preview">
+            <div class="col">
+              <div class="card-body">
+                <i class="fas fa-cloud-sun-rain"></i>
+                <h6 class="days">Sunday</h6>
+                <p class="card-text">85˚F / 79˚F</p>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card-body">
+                <i class="fas fa-cloud-rain"></i>
+                <h6 class="days">Monday</h6>
+                <p class="card-text">78˚F / 70°F</p>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card-body">
+                <i class="fas fa-sun"></i>
+                <h6 class="days">Tuesday</h6>
+                <p class="card-text">90˚F / 85°F</p>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card-body">
+                <i class="fas fa-sun"></i>
+                <h6 class="days"> Wednesday</h6>
+                <p class="card-text">93˚F / 87°F</p>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card-body">
+                <i class="fas fa-cloud-sun-rain"></i>
+                <h6 class="days">Thursday</h6>
+                <p class="card-text">88˚F / 82°F</p>
+              </div>
+            </div>
+          </div>
+
+
+          <footer>
+            <p> 5 Day Forcast </p>
+          </footer>
+          <script src="index.js"></script>
+</body>
+</div>
+
+</html>
