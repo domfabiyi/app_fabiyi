@@ -99,6 +99,7 @@ h2 {
 #current-city {
   color: orange;
   font-weight: 200;
+  text-transform: capitalize;
 }
 
 input {
