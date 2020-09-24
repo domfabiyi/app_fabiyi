@@ -68,21 +68,22 @@ form {
   position: relative;
   right: -330px;
   top: -150px;
-  margin-bottom: -80px;
+  margin-bottom: -130px;
 }
 
 button {
   position: relative;
-  right: -570px;
-  top: -97px;
+  right: -575px;
+  top: -50px;
   margin-bottom: -70px;
-  border-radius: 4px;
-  font-size: 13px;
+  font-size: 11px;
   background-color: #f9045a;
   color: white;
-  font-weight: bold;
+  font-weight: thin;
 }
-
+.search-button {
+  border-radius: 0;
+}
 h2 {
   position: relative;
   color: #f9045a;
@@ -165,6 +166,6 @@ footer p {
 
 .preview {
   text-align: center;
-
   margin-bottom: 10px;
+  margin: -10px;
 }
