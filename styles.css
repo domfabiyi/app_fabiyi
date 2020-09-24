@@ -10,6 +10,10 @@ body {
   margin-left: 15px;
 }
 
+.container {
+  margin: 30px auto;
+}
+
 div .card-small .fa-sun {
   font-size: 80px;
 }
@@ -114,7 +118,7 @@ ul {
   width: 3px;
   background-color: #f9045a;
   position: absolute;
-  top: 150px;
+  top: 200px;
   bottom: 0;
   left: 345px;
   height: 100px;
