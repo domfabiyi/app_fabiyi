@@ -86,3 +86,34 @@ function givePosition(position) {
 
 let currentButton = document.querySelector("#current");
 currentButton.addEventListener("click", setPosition);
+
+function getIcon(iconApi) {
+  let classIcon = "far fa-snowflake";
+  if (iconApi === "01d") {
+    classIcon = `fas fa-sun`;
+  } else if (iconApi === "02d") {
+    classIcon = `fas fa-cloud-sun`;
+  } else if (iconApi === "01n") {
+    classIcon = `fas fa-moon`;
+  } else if (iconApi === " 02n") {
+    classIcon = `fas fa-cloud-moon`;
+  } else if (iconApi === "11d") {
+    classIcon = `fas fa-bolt`;
+  } else if (
+    iconApi === "03d" ||
+    iconApi === "03n" ||
+    iconApi === "04d" ||
+    iconApi === "04n"
+  ) {
+    classIcon = `fas fa-cloud`;
+  } else if (iconApi === "09d") {
+    classIcon = `fas fa-cloud-rain`;
+  } else if (iconApi === "10d") {
+    classIcon = `fas fa-cloud-showers-heavy`;
+  } else if (iconApi === "50d") {
+    classIcon = `fas fa-stream`;
+  } else if (iconApi === "13d") {
+    classIcon = `far fa-snowflake`;
+  }
+  return classIcon;
+}
